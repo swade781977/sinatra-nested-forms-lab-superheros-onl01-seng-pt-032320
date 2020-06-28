@@ -10,5 +10,9 @@ class Super_Hero
         @bio = args[:bio]
         @@all << self
     end
-    
+
+    def self.all
+        @@all
+    end
+
 end
